@@ -1,0 +1,32 @@
+.timeline{
+    &-item{
+        padding: 0 0 rem(10px) rem(50px);
+        position: relative;
+        &::before,
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top:rem(7px);
+        }
+        &::before{
+            background-color: $gray-300;
+            left: rem(5px);
+            height: 100%;
+            width: rem(3px);
+        }
+        &:last-child{
+            margin-bottom: 0;
+            &::before{
+                display: none;
+            }
+        }
+        &::after{
+            width: rem(9px);
+            height: rem(9px);
+            background-color: $gray-300;
+            border-radius: 100%;
+            left: rem(2px);
+        }
+    }
+}

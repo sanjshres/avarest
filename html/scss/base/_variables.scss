@@ -1,0 +1,56 @@
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+// scss-docs-start headings-variables
+$headings-font-family:        'Amiri', serif;
+
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $black;
+$secondary:     #B58A2A;
+$theme-color: #C5BBBB;
+// scss-docs-end theme-color-variables
+// $font-size-base affects the font size of the body text
+$font-size-base:              1.4rem;  // Assumes the browser default, typically `16px`
+
+
+
+
+
+// scss-docs-start box-shadow-variables
+$box-shadow: 2px 2px 10px rgba(#000, 0.1);
+$box-shadow-sm: 2px 4px 25px rgba(#000, 0.15);
+$box-shadow-md: 4px 4px 25px rgba(#000, 0.2);
+$box-shadow-lg: 0 0 20px rgba(#000, 0.25);
+$box-shadow-xl: 0 5px 50px rgba(#000, 0.15);
+$box-shadow-xxl: 0 5px 50px rgba(#000, 0.25);
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+// scss-docs-start btn-variables
+$btn-padding-y:               rem(12px);
+$btn-padding-x:               rem(22px);
+
+
+$default-transition: all 0.25s ease-in-out;
+
+
+
+

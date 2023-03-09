@@ -1,0 +1,10 @@
+.bg{
+    &-fade{
+        &-danger{
+            background-color: rgba($danger, 0.2);
+        }
+        &-success{
+            background-color: rgba($success, 0.2);
+        }
+    }
+}

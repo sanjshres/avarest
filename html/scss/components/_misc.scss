@@ -1,0 +1,24 @@
+.how-doest-it-work{
+    .bg-shape{
+        position: absolute;
+        z-index: -1;
+        top: rem(-130px);  
+        left: rem(-110px);
+        width: 100%;
+        
+        @include media-breakpoint-up(md){
+            width: rem(530px); 
+        }
+    }
+}
+.video-producer{
+    .card{
+        position: relative;
+        .icon{
+            position: absolute;
+            top: rem(-14px);
+            left: rem(-14px);
+            transform: rotate(-20deg);
+        }
+    }
+}

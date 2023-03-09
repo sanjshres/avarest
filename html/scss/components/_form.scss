@@ -1,0 +1,48 @@
+.form-control{
+    height: rem(47px);
+}
+
+.login-register-modal{
+    .seperator{
+        width: rem(30px);
+        height: rem(30px);
+        border-radius: 100%;
+        text-align: center;
+        line-height: 2.2;
+        background-color: $secondary;
+        color: #fff;
+        display: block;
+        margin: rem(20px ) auto;
+    }
+}
+
+.form-social-btn{
+    padding: rem(8px) rem(20px);
+    display: block;
+    background-color: $gray-100;
+    border:rem(1px) solid $gray-300 ;
+    border-radius: rem(4px);
+    transition: $default-transition;
+    &:hover{
+        background-color: $secondary;
+        border-color: $secondary;
+        color: #fff;
+    }
+}
+
+.badge{
+    &.rounded-circle{
+        width: rem(24px);
+        height: rem(24px);
+        padding:0;
+        line-height: 24px;
+    }
+}
+
+.card-count{
+    padding: rem(20px);
+    background-image: url(../images/earth.svg);
+    background-repeat:no-repeat ;
+    background-size: auto;
+    background-color: $gray-100;
+}

@@ -1,0 +1,17 @@
+.icon{
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &-lg{
+        width: rem(40px);
+        height: rem(40px);
+        font-size: rem(26px);
+    }
+    &.bg-danger,
+    &.bg-success,
+    &.bg-primary,
+    &.bg-alert{
+        color: $white;
+    }
+}

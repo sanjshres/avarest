@@ -1,0 +1,22 @@
+html{
+    font-size: 62.5%; //~10/16px, where 16px is a default font size of the browser
+}
+html, body {
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+
+section{
+    margin-bottom: rem(80px);
+}
+.alt-heading-font{
+    font-family: $font-family-sans-serif;
+}
